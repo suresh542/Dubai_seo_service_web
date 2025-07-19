@@ -80,7 +80,7 @@ export default function ServiceInDubai() {
         </div>
       </div>
 
-      <div className="w-full overflow-hidden relative mb-10 hidden md:block ">
+      <div className="w-full overflow-hidden relative my-10  hidden md:block ">
         <div className="transition-transform duration-1000 ease-in-out flex">
           {places.map((place, i) => (
             <div
@@ -154,14 +154,14 @@ export default function ServiceInDubai() {
           </div>
 
           <div className="md:flex space-x-10  space-y-5  text-sm text-white my-10">
-            <div className="space-y-2 w-full md:w-fit rounded-lg p-3 border border-white">
+            <div className="space-y-5 w-full h-full md:w-fit rounded-lg p-3 border border-white">
               <p className="flex items-center">
                 <PiPhoneCallFill size={15} className="me-2"/>
                 +971 52 283 1655
               </p>
               <p className="flex items-center"><IoIosMail size={15} className="me-2"/> info@brandstory.in</p>
             </div>
-            <div className="space-y-2 rounded-lg w-full md:w-[300px] p-3 border border-white">
+            <div className=" rounded-lg w-full h-full md:w-[300px] p-3 border border-white">
               <p className="flex items-start">
                 <HiMapPin  size={30} className="me-2" />
                 G5, Al Meheri Plaza, opp DBC Building,
@@ -171,11 +171,11 @@ export default function ServiceInDubai() {
             </div>
           </div>
 
-          <div className="mt-6 flex flex-col justify-center items-center">
+          <div className="mt-6 flex md:block flex-col justify-center items-center">
             <button className="bg-indigo-500 hover:bg-indigo-600 text-white font-semibold px-6 py-3 rounded-md transition">
               Request a Free SEO Audit
             </button>
-            <p className="mt-2 text-md text-center text-white/80">
+            <p className="mt-2 text-md text-center md:text-start text-white/80">
               Limited-Time Offer: Get a FREE SEO strategy session when you sign
               up this month!
             </p>

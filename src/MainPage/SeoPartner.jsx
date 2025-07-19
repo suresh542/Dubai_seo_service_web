@@ -206,7 +206,7 @@ export default function SeoPartner() {
 
         <div
           className="relative my-10 md:my-0 w-full  flex items-center  md:px-10 bg-contain bg-no-repeat bg-center"
-          style={{ backgroundImage: `url(${Hexa6})` }}
+          style={{ backgroundImage: window.innerWidth> 997 ?`url(${Hexa6})`:"none" }}
         >
           <div className="text-center px-10">
             <h4 className="text-xl text-black font-semibold mb-4">
