@@ -230,7 +230,7 @@ export default function FAQ() {
           <button
             key={tab.name}
             onClick={() => setActiveTab(tab.name)}
-            className={`py-2 px-1 text-sm font-medium  transition ${
+            className={`py-2 px-1 text-xs md:text-sm font-medium  transition ${
               activeTab === tab.name
                 ? "text-black border-b-3 border-violet-500"
                 : ""

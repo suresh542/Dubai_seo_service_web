@@ -224,7 +224,7 @@ export default function ClientFeedback() {
 
 
       <div className="bg-indigo-950 text-white py-15 flex flex-col items-center justify-center text-center mb-15">
-        <h1 className="text-3xl md:text-3xl font-bold mb-6">
+        <h1 className="text-xl md:text-3xl font-bold mb-6">
           Our Experience Extends Across All Social Media Channels,
           <br />
           Ensuring Your Complete Presence.
@@ -232,16 +232,16 @@ export default function ClientFeedback() {
 
         <div className="flex justify-center items-center space-x-[-10px] my-5">
           <div className="relative z-4 bg-white rounded-full p-4 border-2 border-black">
-            <FaXTwitter className="text-black text-3xl" />
+            <FaXTwitter className="text-black text-xl md:text-3xl" />
           </div>
           <div className="relative z-3 bg-white rounded-full p-4 border-2 border-black">
-            <FaLinkedin className="text-blue-600 text-3xl" />
+            <FaLinkedin className="text-blue-600 text-xl md:text-3xl" />
           </div>
           <div className="relative z-2 bg-white rounded-full p-4 border-2 border-black">
-            <FaInstagram className="text-pink-500 text-3xl" />
+            <FaInstagram className="text-pink-500 text-xl md:text-3xl" />
           </div>
           <div className="relative z-1 bg-white rounded-full p-4 border-2 border-black">
-            <FaFacebook className="text-blue-700 text-3xl" />
+            <FaFacebook className="text-blue-700 text-xl md:text-3xl" />
           </div>
         </div>
       </div>

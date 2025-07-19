@@ -249,6 +249,8 @@ export default function SeoPartner() {
               ))}
             </div>
 
+
+
             <div className="w-full md:w-1/2">
               <AnimatePresence custom={direction} mode="wait">
                 <motion.div
