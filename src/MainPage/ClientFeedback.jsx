@@ -199,8 +199,8 @@ export default function ClientFeedback() {
             {testimonials.map((_, index) => (
               <span
                 key={index}
-                className={`rounded-full bg-gray-300 transition-all duration-500 ease-in-out ${
-                  index === current ? "w-10 h-3 " : "w-3 h-3  "
+                className={`rounded-full bg-gray-300 transition-all duration-600 ease-in-out ${
+                  index === current ? "w-12 h-2 " : "w-2 h-2  "
                 }`}
               />
             ))}
